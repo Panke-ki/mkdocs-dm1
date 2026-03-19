@@ -1,5 +1,5 @@
 site_name: mkdocs-dm1
-site_url: https://panken.github.io/mkdocs-dm1/
+site_url: https://panke-ki.github.io/mkdocs-dm1/
 theme:
   name: material
 site_description: "A demo for mkdocs0.17"
