@@ -1,0 +1,11 @@
+site_name: mkdocs-dm1
+site_url: https://panken.github.io/mkdocs-dm1/
+theme:
+  name: material
+site_description: "A demo for mkdocs0.17"
+site_author: "Panke-ki"
+copyright: "Copyright (c) Karaganda, Kazakhstan, 2024 Panke-ki All rights reserved."
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
