@@ -4,7 +4,7 @@ theme:
   name: material
 site_description: "A demo for mkdocs0.17"
 site_author: "Panke-ki"
-copyright: "Copyright (c) Karaganda, Kazakhstan, 2024 Panke-ki All rights reserved."
+copyright: "Copyright (c) Karaganda, Kazakhstan, 2026 Panke-ki All rights reserved."
 markdown_extensions:
   - admonition
   - pymdownx.details
