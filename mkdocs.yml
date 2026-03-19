@@ -1,8 +1,8 @@
-site_name: mkdocs-dm1
+site_name: Demo_MkDocs_Material
 site_url: https://panke-ki.github.io/mkdocs-dm1/
 theme:
   name: material
-site_description: "A demo for mkdocs0.17"
+site_description: "Demonstration of MkDocs Material theme with GitHub Actions CI/CD deployment."
 site_author: "Panke-ki"
 copyright: "Copyright (c) Karaganda, Kazakhstan, 2026 Panke-ki All rights reserved."
 markdown_extensions:
