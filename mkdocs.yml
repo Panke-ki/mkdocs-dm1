@@ -1,11 +1,57 @@
 site_name: Demo_MkDocs_Material
 site_url: https://panke-ki.github.io/mkdocs-dm1/
+<<<<<<< HEAD
 theme:
   name: material
 site_description: "Demonstration of MkDocs Material theme with GitHub Actions CI/CD deployment."
+=======
+site_description: "Простой блог на MkDocs"
+>>>>>>> b245d04340352cadd97e9ae3707528f67e37880a
 site_author: "Panke-ki"
 copyright: "Copyright (c) Karaganda, Kazakhstan, 2026 Panke-ki All rights reserved."
+
+theme:
+  name: material
+  language: ru
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - header.autohide
+  palette:
+    - scheme: default
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Тёмный режим
+    - scheme: slate
+      primary: blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Светлый режим
+
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+      post_dir: blog/posts
+      archive_toc: true
+
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - toc:
+      permalink: true
+  - meta
+  - attr_list
+
+nav:
+  - Главная: index.md
+  - Блог: blog/index.md
